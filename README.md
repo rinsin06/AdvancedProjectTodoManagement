@@ -47,9 +47,9 @@ This will start the development server, and you can view the application in your
 
 ### Backend
 To run the backend application, follow these steps:
-1. Navigate to the backend directory (ensure you have created a suitable backend structure):
+1. Navigate to the backend directory :
    ```bash
-   cd backend
+   cd AdvancedTodoBackend
    ```
 2. Update the `application.properties` file with your database connection settings and GitHub token:
    ```properties
