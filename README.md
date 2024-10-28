@@ -8,6 +8,7 @@
 - [Running the Application](#running-the-application)
 - [GitHub Token Configuration](#github-token-configuration)
 - [Backend Configuration](#backend-configuration)
+- [Running JUnit Tests](#running-junit-tests)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -77,6 +78,19 @@ If your application interacts with GitHub APIs, you will need to set up a GitHub
 5. Access the token in your frontend application using:
    ```javascript
    const token = process.env.REACT_APP_GITHUB_TOKEN;
+
+## Running JUnit Tests
+To run the JUnit tests for the backend application, follow these steps:
+
+1. Navigate to the backend directory:
+   ```bash
+   cd AdvancedTodoBackend
+   ```
+2. Use Maven to run the tests:
+   ```bash
+   mvn test
+   ```
+This command will execute all the JUnit tests located in the `src/test/java` directory and provide you with a summary of the results.
    ```
 
 ## Usage
