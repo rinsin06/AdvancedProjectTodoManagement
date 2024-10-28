@@ -13,7 +13,7 @@
 - [License](#license)
 
 ## Introduction
-This is an Advanced Project Todo Management application built with React and Material-UI (MUI). It allows users to create and manage todo projects efficiently.
+This is an Advanced Project Todo Management application built with React and Material-UI (MUI). It allows users to create and manage project todos efficiently.
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
